@@ -1,6 +1,6 @@
-FROM node:12-slim
+FROM node:14-alpine
 
-LABEL version="3.1.4"
+LABEL version="3.2.0"
 LABEL repository="http://github.com/kamilkisiela/graphql-inspector"
 LABEL homepage="http://github.com/kamilkisiela/graphql-inspector"
 LABEL maintainer="Kamil Kisiela <kamil.kisiela@gmail.com>"
